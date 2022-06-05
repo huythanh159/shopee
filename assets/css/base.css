@@ -26,3 +26,12 @@ html{
     display: flex;
     flex-wrap: wrap;
 }
+/* Animation header QR code */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

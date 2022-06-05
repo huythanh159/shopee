@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Roboto:wght@300;400;500;700">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <title>Shopee</title>
@@ -18,18 +19,95 @@
             <div class="grid">
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item">Vao cua hang</li>
-                        <li class="header__navbar-item">Ket noi</li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng của chúng tôi
+                            <div class="header__qr">
+                                <img src="./assets/img/QR-code/shopeeQR.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-app">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/QR-code/gg-play.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/QR-code/appleStore.png" alt="Apple Store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item ">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
                     </ul>
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item">
-                            <a href="" class="header__navbar-item-link">Thong Bao</a>
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <!-- start header notification -->
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <!-- end header notification -->
+                                
+                                <!-- start body notification -->
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/notify/notify-unlogin.png" alt="Unlogin" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Xác thực chính hãng nguồn gốc các sản phẩm Ohui</span>
+                                                <span class="header__notify-desc">HiddenTag là giải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/notify/notify-unlogin.png" alt="Unlogin" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Xác thực chính hãng nguồn gốc các sản phẩm Ohui</span>
+                                                <span class="header__notify-desc">HiddenTag là giải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/notify/notify-unlogin.png" alt="Unlogin" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Xác thực chính hãng nguồn gốc các sản phẩm Ohui</span>
+                                                <span class="header__notify-desc">HiddenTag là giải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- end body notification -->
+
+                                <!-- start body notification -->
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                                <!-- end footer notification -->
+                            </div>
                         </li>
-                        <li class="header__navbar-item">
-                            <a href="" class="header__navbar-item-link">Tro giup</a>
+                        <li class="header__navbar-item">    
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+
                         </li>
-                        <li class="header__navbar-item">Dang Ky</li>
-                        <li class="header__navbar-item">Dang Nhap</li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng Ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
                     </ul>
                 </nav>
             </div>
