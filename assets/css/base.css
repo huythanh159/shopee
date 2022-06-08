@@ -2,10 +2,16 @@
     --white-color:#fff;
     --black-color:#000;
     --text-color:#333;
+    --primary-color:#ee4d2d;
+    --border-color:#dbdbdb;
+    --header-height:120px;
+    --navbar-height:34px;
+    --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
 }
 *{
     box-sizing: inherit;
 }
+
 html{
     font-size: 62.5%;
     line-height: 1.6rem;
@@ -34,4 +40,71 @@ html{
     to{
         opacity: 1;
     }
+}
+@keyframes growth{
+    from{
+        transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+    }
+}
+/* modal */
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    animation: fadeIn linear 0.1s;
+}
+
+.modal__overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.modal__body{
+    --growth-from:0;
+    --growth-to:1;
+    z-index: 1;
+    margin: auto;
+    animation: growth linear 0.1s;
+}
+/* button style */
+.btn{
+    min-width: 124px;
+    height: 34px;
+    text-decoration: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6rem;
+}
+.btn--size-s{
+    height: 32px;
+    font-size: 12px;
+    padding: 0 8px;
+
+}
+.btn.btn-normal:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.btn.btn--primary{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+
+}
+.btn.btn-disabled{
+    cursor: default;
+    color:#949494;
+    background-color: #c3c3c3;
 }
