@@ -31,6 +31,18 @@ html{
 .grid__row{
     display: flex;
     flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.grid__column-2{
+    width: 16.6667%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.grid__column-10{
+    width: 83.3334%;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 /* Animation header QR code */
 @keyframes fadeIn{
@@ -84,7 +96,7 @@ html{
     font-size: 1.5rem;
     padding: 0 12px;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     line-height: 1.6rem;
@@ -107,4 +119,57 @@ html{
     cursor: default;
     color:#949494;
     background-color: #c3c3c3;
+}
+/* Container */
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* selection */
+.select-input{
+    position: relative;
+    min-width: 200px;
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.select-input__label{
+    font-size: 1.4rem;
+}
+.select-input__icon{
+    color: #4A4A4A;
+    margin: 0 8px;
+}
+.select-input:hover .select-input__list{
+    display: block;
+}
+.select-input__list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    padding: 8px 16px;
+    list-style: none;
+    display: none;
+}
+.select-input__link{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-decoration: none;
+    display: block;
+    padding: 4px 0;
+}
+.select-input__link:hover{
+    color: var(--primary-color);
 }
