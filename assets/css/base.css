@@ -6,6 +6,7 @@
     --border-color:#dbdbdb;
     --header-height:120px;
     --navbar-height:34px;
+    --header-short-bar:46px;
     --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
     --star-gold-color:#FFCE3E;
 }
