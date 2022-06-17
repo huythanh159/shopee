@@ -145,30 +145,34 @@
                 <!-- Header with search -->
                 <div class="header-with-search">
                     <label for="nav__mobile-input" class="header__mobile-nav">
-                        <i class="fa-solid fa-bars"></i>
+                        <i class="header__mobile-nav-icon fa-solid fa-bars"></i>
                     </label>
                     <input type="checkbox" name="" class="nav__input" id="nav__mobile-input">
                     <label for="nav__mobile-input" class="header__mobile-menu-overlay"></label>
                     <nav class="nav__mobile">
                         <label for="nav__mobile-input" class="nav__mobile-close">
-                            <i class="fa-solid fa-xmark"></i>
+                            <i class="nav__mobile-close-icon fa-solid fa-xmark"></i>
                         </label>
                         <ul class="nav__mobile-list">
-                            <li>
-                                <a href="" class="nav__mobile-link">Home</a>
+                            <li  class="nav__mobile-item">
+                                <a href="" class="nav__mobile-link">
+                                    <i class="fa-solid fa-house"></i>
+                                    <span>Trang Chủ</span> 
+                                </a>
                             </li>
-                            <li>
-                                <a href="" class="nav__mobile-link">About</a>
+                            <li  class="nav__mobile-item">
+                                <a href="" class="nav__mobile-link">
+                                    <i class="fa-solid fa-user-plus"></i>
+                                    <span>Đăng ký</span>
+                                </a>
                             </li>
-                            <li>
-                                <a href="" class="nav__mobile-link">Category</a>
+                            <li  class="nav__mobile-item">
+                                <a href="" class="nav__mobile-link">
+                                    <i class="fa-solid fa-right-to-bracket"></i>
+                                    <span>Đăng Nhập</span>
+                                </a>
                             </li>
-                            <li>
-                                <a href="" class="nav__mobile-link">News</a>
-                            </li>
-                            <li>
-                                <a href="" class="nav__mobile-link">Contact</a>
-                            </li>
+                            
                         </ul>
                     </nav>
                     <label for="mobile-search-checkbox" class="header__mobile-search">
@@ -235,9 +239,10 @@
                     <!-- Cart layout -->
                     <div class="header__cart">
                         <div class="header__cart-wrap">
-                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <i  class="header__cart-icon fa-solid fa-cart-shopping"></i>
                             <span class="header__cart-notice">3</span>
                             <!-- No cart:header__cart-list--no-cart -->
+                            
                             <div class="header__cart-list">
                                 <img src="./assets/img/shopee/no-cart.png" alt="No Cart"
                                     class="header__cart-no-cart-img">

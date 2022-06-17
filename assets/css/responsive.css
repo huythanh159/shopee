@@ -56,6 +56,25 @@
         line-height: var(--line-height);
         height: calc(var(--line-height) * 2);
     }
+     /* nav mobile */
+     .header__mobile-nav{
+        display: block;
+        padding-left: 0;
+    }
+    .nav__mobile{
+        width: 50%;
+    }
+    .nav__mobile-close-icon{
+        font-size: 5rem;
+        padding: 24px;
+    }
+    .nav__mobile-link{
+        font-size: 2.5rem;
+        padding: 18px;
+    }
+    .nav__mobile-link i{
+        min-width: 30px;
+    }
 }
 
 /*Mobile < 739px*/
@@ -100,6 +119,10 @@
         left: 0;
         box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);
     }
+    .header__mobile-search{
+        position: absolute;
+        right: 75%;
+    }
     .pagination-item{
         margin: 0 2px;
     }
@@ -129,6 +152,13 @@
     }
     .footer__download-apps{
         flex: unset;
+    }
+    .footer__heading{
+        font-size: 1.1rem;
+    }
+    /* nav mobile */
+    .header__mobile-nav{
+        display: block;
     }
     @keyframes mobiSearchSidein{
         from{
