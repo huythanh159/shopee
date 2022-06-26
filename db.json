@@ -1,7 +1,6 @@
 {
   "products": [
     {
-      "name":"remote",
       "image": "https://cf.shopee.vn/file/45bde0d224a0105f195ff2ed53cbeb4a_tn",
       "title": "[Hàng chính hãng] Remote Điều khiển TV Panasonic có hỗ trợ giọng nói TH-43FX550V/ TH-49FX550V/ TH-49FX650V/TH-55FX650V",
       "oldPrice": "100.000",
@@ -11,7 +10,6 @@
       "soldQuantity": "88"
     },
     {
-      "name":"remote",
       "image": "https://cf.shopee.vn/file/dd4cf6878e468abdc8bdd7e76b00f6a2_tn",
       "title": "Điều khiển Tivi SONY Smart Internet-Model TX300P Hàng Xuất MALAYSIA Chất Lượng Cao",
       "oldPrice": "80.000",
@@ -21,7 +19,6 @@
       "soldQuantity": "6.5k"
     },
     {
-      "name":"remote",
       "image": "https://cf.shopee.vn/file/61a541b59158acc3b6db3496ed9b4d20",
       "title": "REMOTE ĐIỀU KHIỂN TIVI SAMSUNG 4K SMART CONG (LƯNG ĐEN-KHÔNG VOICE-GIÁ THƠM)",
       "oldPrice": "50.000",
@@ -31,7 +28,7 @@
       "soldQuantity": "101"
     },
     {
-      "name":"hdmi",
+      
       "image": "https://cf.shopee.vn/file/1ad201b9c2a4b1b54c5f6795abbe070c_tn",
       "title": "Dây HDMI chống nhiễu loại tốt tín hiệu ổn định độ dài 1M 1.5M 3M 5M 7.0 ARIGATO DHA4)",
       "oldPrice": "10.000",
@@ -41,7 +38,7 @@
       "soldQuantity": "2,3k"
     },
     {
-      "name":"hdmi",
+      
       "image": "https://cf.shopee.vn/file/9c615b2c3965b21cf429606abd60ac39_tn",
       "title": "【Chính hãng)Dây Cáp loại tròn 1,5m,3m,5m,HDMI SENIKO 2.0/4K Cao Cấp tốc độ cao,cho tivi,máy tính,mạ vàng,chuẩn full HD",
       "oldPrice": "70.000",
@@ -51,7 +48,7 @@
       "soldQuantity": "275"
     },
     {
-      "name":"hdmi",
+      
       "image": "https://cf.shopee.vn/file/dfbcddc6cb733cef4b4a32021afad5b7_tn",
       "title": "Cáp hai đầu HDMI 2.1 hỗ trợ 8K Baseus High Definition Series)",
       "oldPrice": "125.000",
@@ -61,7 +58,7 @@
       "soldQuantity": "18"
     },
     {
-      "name":"hdmi",
+      
       "image": "https://cf.shopee.vn/file/7a1da462bf02c0817d72336636d24cab_tn",
       "title": "[Mã 256ELSALE giảm 7% đơn 300K] Cặp Converter Quang HDMI và USB 1080P",
       "oldPrice": "1.820.000",
@@ -71,7 +68,7 @@
       "soldQuantity": "5"
     },
     {
-      "name":"hdmi",
+      
       "image": "https://cf.shopee.vn/file/d5585060815fe2f40c7697f413c36d31_tn",
       "title": "[Mã 256ELSALE giảm 7% đơn 300K] Thiết bị OTG chuyển TypeC ra USB 3.0 SSK SHU-C545 hỗ trợ chất lượng 4K HDMI (bạc)",
       "oldPrice": "800.000",
@@ -81,7 +78,7 @@
       "soldQuantity": "1"
     },
     {
-      "name":"hdmi",
+      
       "image": "https://cf.shopee.vn/file/a2cef93d9a85fdcfd57d74ab83e9d1d6_tn",
       "title": "Cáp Chuyển Đổi Tín Hiệu HDMI Sang VGA Dài 20Cm - HDMI to VGA Cable",
       "oldPrice": "45.000",
@@ -91,7 +88,109 @@
       "soldQuantity": "8"
     },
     {
-      "name":"hdmi",
+      
+      "image": "https://cf.shopee.vn/file/d0393bd0ba3cae407cfb51608ac46bc2_tn",
+      "title": "Dây cáp mạng VENTION Lan CAT6 RJ45 UTP Gigabit tốc độ cho bộ định tuyến PC/laptop",
+      "oldPrice": "35.000",
+      "currentPrice": "175.000",
+      "brand": "HaNoi",
+      "originName": "VN",
+      "soldQuantity": "2,9k"
+    }
+  ],
+
+  "remote":[
+    {
+      "image": "https://cf.shopee.vn/file/45bde0d224a0105f195ff2ed53cbeb4a_tn",
+      "title": "[Hàng chính hãng] Remote Điều khiển TV Panasonic có hỗ trợ giọng nói TH-43FX550V/ TH-49FX550V/ TH-49FX650V/TH-55FX650V",
+      "oldPrice": "100.000",
+      "currentPrice": "79.000",
+      "brand": "Whoo",
+      "originName": "Japan",
+      "soldQuantity": "88"
+    },
+    {
+      "image": "https://cf.shopee.vn/file/dd4cf6878e468abdc8bdd7e76b00f6a2_tn",
+      "title": "Điều khiển Tivi SONY Smart Internet-Model TX300P Hàng Xuất MALAYSIA Chất Lượng Cao",
+      "oldPrice": "80.000",
+      "currentPrice": "49.900",
+      "brand": "MALAYSIA",
+      "originName": "HaNoi",
+      "soldQuantity": "6.5k"
+    },
+    {
+      "image": "https://cf.shopee.vn/file/61a541b59158acc3b6db3496ed9b4d20",
+      "title": "REMOTE ĐIỀU KHIỂN TIVI SAMSUNG 4K SMART CONG (LƯNG ĐEN-KHÔNG VOICE-GIÁ THƠM)",
+      "oldPrice": "50.000",
+      "currentPrice": "28.900",
+      "brand": "TP HCM",
+      "originName": "Korea",
+      "soldQuantity": "101"
+    }
+  ],
+  "capHdmi": [
+    {
+      
+      "image": "https://cf.shopee.vn/file/1ad201b9c2a4b1b54c5f6795abbe070c_tn",
+      "title": "Dây HDMI chống nhiễu loại tốt tín hiệu ổn định độ dài 1M 1.5M 3M 5M 7.0 ARIGATO DHA4)",
+      "oldPrice": "10.000",
+      "currentPrice": "35.000",
+      "brand": "TP HCM",
+      "originName": "Korea",
+      "soldQuantity": "2,3k"
+    },
+    {
+      
+      "image": "https://cf.shopee.vn/file/9c615b2c3965b21cf429606abd60ac39_tn",
+      "title": "【Chính hãng)Dây Cáp loại tròn 1,5m,3m,5m,HDMI SENIKO 2.0/4K Cao Cấp tốc độ cao,cho tivi,máy tính,mạ vàng,chuẩn full HD",
+      "oldPrice": "70.000",
+      "currentPrice": "305.000",
+      "brand": "TP HCM",
+      "originName": "Korea",
+      "soldQuantity": "275"
+    },
+    {
+      
+      "image": "https://cf.shopee.vn/file/dfbcddc6cb733cef4b4a32021afad5b7_tn",
+      "title": "Cáp hai đầu HDMI 2.1 hỗ trợ 8K Baseus High Definition Series)",
+      "oldPrice": "125.000",
+      "currentPrice": "195.000",
+      "brand": "HaNoi",
+      "originName": "VN",
+      "soldQuantity": "18"
+    },
+    {
+      
+      "image": "https://cf.shopee.vn/file/7a1da462bf02c0817d72336636d24cab_tn",
+      "title": "[Mã 256ELSALE giảm 7% đơn 300K] Cặp Converter Quang HDMI và USB 1080P",
+      "oldPrice": "1.820.000",
+      "currentPrice": "2.500.000",
+      "brand": "HaNoi",
+      "originName": "VN",
+      "soldQuantity": "5"
+    },
+    {
+      
+      "image": "https://cf.shopee.vn/file/d5585060815fe2f40c7697f413c36d31_tn",
+      "title": "[Mã 256ELSALE giảm 7% đơn 300K] Thiết bị OTG chuyển TypeC ra USB 3.0 SSK SHU-C545 hỗ trợ chất lượng 4K HDMI (bạc)",
+      "oldPrice": "800.000",
+      "currentPrice": "549.000",
+      "brand": "HaNoi",
+      "originName": "VN",
+      "soldQuantity": "1"
+    },
+    {
+      
+      "image": "https://cf.shopee.vn/file/a2cef93d9a85fdcfd57d74ab83e9d1d6_tn",
+      "title": "Cáp Chuyển Đổi Tín Hiệu HDMI Sang VGA Dài 20Cm - HDMI to VGA Cable",
+      "oldPrice": "45.000",
+      "currentPrice": "25.000",
+      "brand": "HaNoi",
+      "originName": "VN",
+      "soldQuantity": "8"
+    },
+    {
+      
       "image": "https://cf.shopee.vn/file/d0393bd0ba3cae407cfb51608ac46bc2_tn",
       "title": "Dây cáp mạng VENTION Lan CAT6 RJ45 UTP Gigabit tốc độ cho bộ định tuyến PC/laptop",
       "oldPrice": "35.000",
