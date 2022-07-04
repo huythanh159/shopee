@@ -195,9 +195,11 @@ const app = {
     },
     
     start: function () {
-        this.eventHandle();
-        this.renderAll();
-        
+        this.eventHandle()
+        this.renderAll()
+        this.renderCategory()
+        console.log("load done")
+        console.log($(".smartphones"))
     }
 
 }   
