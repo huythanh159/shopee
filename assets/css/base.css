@@ -87,6 +87,12 @@ html{
     margin: auto;
     animation: growth linear 0.1s;
 }
+.open{
+    display: flex;
+}
+.close{
+    display: none;
+}
 /* button style */
 .btn{
     min-width: 124px;
